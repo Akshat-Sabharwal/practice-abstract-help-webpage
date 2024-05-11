@@ -1,0 +1,11 @@
+:root {
+  /* COLORS */
+  --light-accent: #dadbf1;
+  --dark-accent: #4c5fd5;
+}
+
+* {
+  transition: 0.2s ease;
+  margin: 0;
+  padding: 0;
+}

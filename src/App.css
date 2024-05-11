@@ -1,0 +1,76 @@
+.fixed-button {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+}
+
+.section-one {
+  background-color: var(--light-accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 7rem;
+}
+
+.section-one .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.section-one .content p {
+  font-size: 4.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: -5px;
+}
+
+.section-one .content span {
+  max-height: 1.8rem;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  background-color: white;
+  padding-block: 1.3rem;
+  padding-inline: 1rem;
+  width: 120%;
+  box-shadow: 0 0.5rem 0.8rem 0.3rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-one .content span:focus-within {
+  outline: none;
+  border: 1px solid var(--dark-accent);
+}
+
+.section-one .content span input {
+  width: 90%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+}
+
+.section-one .content span .arrow-icon {
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
+}
+
+.section-one .content span .arrow-icon:hover {
+  color: var(--dark-accent);
+}
+
+.section-two {
+  padding-inline: 10rem;
+  padding-block: 11rem 2rem;
+  padding-right: 12rem;
+}
+
+.section-two .grid-container {
+  display: grid;
+  grid-template-areas: "article article" "article article" "article article";
+  grid-gap: 0.5rem;
+}

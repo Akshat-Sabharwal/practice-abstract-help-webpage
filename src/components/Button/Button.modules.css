@@ -1,0 +1,11 @@
+button {
+  padding-inline: 1.5rem;
+  padding-block: 0.8rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}

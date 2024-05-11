@@ -1,0 +1,50 @@
+.article {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 6rem;
+  padding-inline: 1rem;
+}
+
+.article .content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  max-width: fit-content;
+  gap: 2.2rem;
+}
+
+.article .content img {
+  max-width: 6rem;
+}
+
+.article .content article {
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.article .content article p:first-child {
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.article .content article p:nth-child(2) {
+  max-width: 50ch;
+  font-size: 1.3rem;
+  letter-spacing: 0.7px;
+  line-height: 1.9rem;
+}
+
+.article .content article span {
+  font-size: 1.2rem;
+  color: var(--dark-accent);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.article .content article span:hover {
+  text-decoration: underline;
+}
